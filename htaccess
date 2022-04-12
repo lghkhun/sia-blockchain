@@ -1,0 +1,6 @@
+RewriteEngine On
+
+
+RewriteRule ^page/([0-9a-zA-Z]+) index.php?p=$1
+
+RewriteRule ^result/file process/upload-file.php
